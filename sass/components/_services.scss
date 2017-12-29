@@ -1,0 +1,16 @@
+/* ---------- Services  ---------- */
+
+.section--services {
+  .grid__item {
+    margin-bottom: 30px;
+    .fa {
+      font-size: 40px;
+      color: $green;
+      margin-bottom: 20px;
+    }
+    h4 {
+      font-weight: 700;
+      margin-bottom: 5px;
+    }
+  }
+}

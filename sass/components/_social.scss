@@ -1,0 +1,17 @@
+/* ---------- Social Media Section ---------- */
+
+.section--social {
+  padding: 45px 0 45px 0;
+  background-color: $green;
+
+  .fa {
+    color: $white;
+    font-size: 24px;
+    padding: 29px;
+    transition: all .5s;
+  }
+
+  .fa:hover {
+    color: #666;
+  }
+}

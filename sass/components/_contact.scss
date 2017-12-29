@@ -1,0 +1,61 @@
+/* ---------- Contact Section ---------- */
+
+.section--contact {
+  background-color: $gray-light;
+
+  .grid__item {
+    .fa {
+      color: $green;
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+  }
+
+  h3 {
+    padding: 20px 0 30px 0;
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  input,
+  textarea,
+  button {
+    display: block;
+  }
+
+  input,
+  textarea {
+    width: 80%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+  }
+
+  textarea {
+    margin-bottom: 40px;
+  }
+
+  input:focus,
+  textarea:focus {
+    outline: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .section--contact {
+    input,
+    textarea {
+      width: 70%;
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  .section--contact {
+    input,
+    textarea {
+      width: 60%;
+    }
+  }
+}

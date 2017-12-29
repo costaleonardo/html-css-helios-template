@@ -1,0 +1,45 @@
+/* ---------- Header Section ---------- */
+
+.header {
+  background: url(../img/header-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center right;
+  height: 100vh;
+
+  .section__content {
+    padding-top: 30%;
+    h1 {
+      font-size: 55px;
+      text-transform: uppercase;
+      color: $white;
+      margin-bottom: 20px;
+    }
+
+    strong {
+      font-weight: 900;
+    }
+
+    p {
+      color: rgba(255,255,255,0.8);
+      font-size: 20px;
+      margin-bottom: 80px;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .header {
+    .section__content {
+      padding-top: 10%;
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  .header {
+    .section__content {
+      padding-top: 15%;
+    }
+  }
+}

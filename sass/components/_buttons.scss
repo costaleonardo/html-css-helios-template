@@ -1,0 +1,34 @@
+/* ---------- Buttons ---------- */
+
+.button {
+  transition: all .5s;
+  background-color: transparent;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 4px;
+  text-transform: uppercase;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.button--header {
+  color: $white;
+  border: 2px solid $white;
+}
+
+.button--header:hover {
+  background-color: $white;
+  color: $green;
+}
+
+.button--contact {
+  color: $green;
+  border: 2px solid $green;
+}
+
+.button--contact:hover {
+  background-color: $green;
+  color: $white;
+}

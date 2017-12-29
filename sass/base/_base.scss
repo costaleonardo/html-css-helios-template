@@ -1,0 +1,52 @@
+body {
+  font-family: 'Lato', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #777;
+}
+
+a {
+  color: $white;
+  text-decoration: none;
+  transition: all .5s;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  transition: all .5s;
+}
+
+/* ---------- Classes ---------- */
+
+.text-center {
+  text-align: center;
+}
+
+/* ---------- Typography ---------- */
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  line-height: 20px;
+  font-size: 32px;
+  font-weight: 700;
+  color: $gray-medium;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 20px;
+  color: $gray-medium;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+}
